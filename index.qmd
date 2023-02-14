@@ -1,11 +1,36 @@
 ---
-title: "final_project2"
+title: "How is India Tackling Climate Change?"
 ---
+India is one of the countries that is particularly vulnerable to the impacts of climate change, as it is projected to suffer from the consequences of rising temperatures, more frequent and severe natural disasters, and decreased water availability. The data used for this project was from Kaggle and variable like temp, date , sealevelpressure were pulled.It was then used to find the temperature changes by state and also you used to find the relationship between temperature and sea level pressure. The temperatures in India started going down after 2019 as India's monsoon season impacts the temperatures to a bigger extent in that year and kept decreasing after covid 19 started.
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ```{r}
-1 + 1
+#| echo: false
+#| message: false
+#| output: false
+library(readr)
+library(tidyverse)
+library(ggplot2)
+library(lubridate)
 ```
+
+
+```{r}
+#| echo: false
+read_rds("Delhi_1.rds")|>
+    select(City, Date, temp)|>
+  mutate(Date = year(Date))|>
+  filter(City == "New Delhi")|>
+  summarize(max_temp = mean(temp), .by = Date)|>
+  ggplot(aes(x = Date, y = max_temp))+
+  geom_line()+
+  theme_classic()+
+  labs(title = "New Delhi Temperature",subtitle = "New Delhi's temperatures decreased by 1 degree celsius from 2018-2020",
+       x = "Time", y = "Temperature", caption = "Source: Kaggle")
+```
+
+
+
+
+
+

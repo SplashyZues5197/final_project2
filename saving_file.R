@@ -20,3 +20,19 @@ indian_emmision <-subset(file2, Total!=0)
 
 
 write_csv(x = indian_emmision, file = "india's commision.csv")
+
+
+energy_use <- read_csv(file = "energy-consumption-by-source-and-country.csv", show_col_types = FALSE)|>
+  filter(Entity == "India" )|>
+  select("Year","Geo Biomass Other - TWh (zero filled)"
+         ,"Biofuels Consumption - TWh - Total (zero filled)"
+         ,"Solar Consumption - TWh (zero filled)"
+         ,"Wind Consumption - TWh (zero filled)"
+         ,"Hydro Consumption - TWh (zero filled)"
+         ,"Nuclear Consumption - TWh (zero filled)",
+         "Gas Consumption - TWh (zero filled)",
+         "Coal Consumption - TWh (zero filled)",
+         "Oil Consumption - TWh (zero filled)")|>
+colnames(energy_use)<- c("Year", "Biomass","Biofuel","Solar","Wind","Hydro","Nuclear","Gas","Coal","Oil")
+
+

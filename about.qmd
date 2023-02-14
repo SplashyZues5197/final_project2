@@ -1,9 +1,17 @@
----
-title: "About"
----
 
-About this site
 
-```{r}
-1 + 1
-```
+## About Me
+
+Hi i am anish bellamkonda.
+Currently a junior at Metea Valley High school and am very passionate about data science
+
+
+My email: Ani.bellamkonda@gmail.com
+
+[GitHub Link](https://github.com/SplashyZues5197/final_project2/tree/master)
+
+
+[Kane's Free Data Science Bootcamp](https://bootcamp.davidkane.info/)
+
+
+
