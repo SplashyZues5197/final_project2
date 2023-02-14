@@ -44,3 +44,4 @@ read_rds("pressure.rds")
 -Human health: Higher sea level pressure can lead to improved air quality, with fewer pollutants being transported from the ground to the atmosphere.
 
 -It's important to note that an increase in sea level pressure can be a result of various weather patterns, and its effects can vary depending on the specific location and conditions.
+

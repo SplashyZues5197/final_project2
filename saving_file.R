@@ -36,3 +36,4 @@ energy_use <- read_csv(file = "energy-consumption-by-source-and-country.csv", sh
 colnames(energy_use)<- c("Year", "Biomass","Biofuel","Solar","Wind","Hydro","Nuclear","Gas","Coal","Oil")
 
 
+energy_use

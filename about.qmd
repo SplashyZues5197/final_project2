@@ -2,8 +2,8 @@
 
 ## About Me
 
-Hi i am anish bellamkonda.
-Currently a junior at Metea Valley High school and am very passionate about data science
+Hi i am Anish Bellamkonda.
+Currently a junior at Metea Valley High School and am very passionate about data science
 
 
 My email: Ani.bellamkonda@gmail.com
@@ -12,6 +12,7 @@ My email: Ani.bellamkonda@gmail.com
 
 
 [Kane's Free Data Science Bootcamp](https://bootcamp.davidkane.info/)
+
 
 
 
