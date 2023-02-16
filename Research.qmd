@@ -1,6 +1,50 @@
 ---
 title: "Research"
 ---
+## India's use of its resources
+
+```{r}
+#| echo: false
+#| message: false
+
+library(readr)
+library(tidyverse)
+library(ggplot2)
+library(lubridate)
+library(gganimate)
+library(plotly)
+p <-read_rds("coal_energy.rds")
+p
+```
+
+
+
+
+
+## US Temperature Changes From 1900 to Present
+```{r}
+#| echo: false
+read_rds("1900.rds")
+
+
+read_rds("1960.rds")
+
+
+
+read_rds("2000.rds")
+
+
+
+
+read_rds("2023.rds")
+```
+
+
+
+
+
+
+
 ## Effects of High and Low Temperatures on Sea Level Pressure
 
 ```{r}
@@ -12,6 +56,7 @@ library(tidyverse)
 library(ggplot2)
 library(lubridate)
 read_rds("pressure.rds")
+
 ```
 
 

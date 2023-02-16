@@ -2,30 +2,30 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "India's Temperature Changes and Effects",
+    "title": "Climate Change Effects On The World",
     "section": "",
-    "text": "Hi i am anish bellamkonda. Currently a junior at Metea Valley High school and am very passionate about data science\nMy email: Ani.bellamkonda@gmail.com\nMy Final Project\nKane’s Free Data Science Bootcamp"
+    "text": "Hi i am Anish Bellamkonda. Currently a junior at Metea Valley High School and am very passionate about data science\nMy email: Ani.bellamkonda@gmail.com\nGitHub Link\nKane’s Free Data Science Bootcamp"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "How is India Tackling Climate Change?",
+    "title": "How is Climate Change Affecting the World?",
     "section": "",
-    "text": "India is one of the countries that is particularly vulnerable to the impacts of climate change, as it is projected to suffer from the consequences of rising temperatures, more frequent and severe natural disasters, and decreased water availability. The data used for this project was from Kaggle and variable like temp, date , sealevelpressure were pulled.It was then used to find the temperature changes by state and also you used to find the relationship between temperature and sea level pressure. The temperatures in India started going down after 2019 as India’s monsoon season impacts the temperatures to a bigger extent in that year and kept decreasing after covid 19 started."
+    "text": "Climate change is having a significant impact on the world, with the most notable effects being seen in rising temperatures, sea level rise, changes in precipitation patterns, and more frequent and intense weather events. These impacts are expected to worsen in the coming years, highlighting the urgent need for action to reduce greenhouse gas emissions and mitigate the worst effects of climate change."
   },
   {
-    "objectID": "index.html#effects-of-high-and-low-temperatures-on-sea-level-pressure",
-    "href": "index.html#effects-of-high-and-low-temperatures-on-sea-level-pressure",
-    "title": "How is India Tackling climate change?",
+    "objectID": "Research.html#us-temperature-changes-from-1900-to-present",
+    "href": "Research.html#us-temperature-changes-from-1900-to-present",
+    "title": "Research",
+    "section": "US Temperature Changes From 1900 to Present",
+    "text": "US Temperature Changes From 1900 to Present"
+  },
+  {
+    "objectID": "Research.html#effects-of-high-and-low-temperatures-on-sea-level-pressure",
+    "href": "Research.html#effects-of-high-and-low-temperatures-on-sea-level-pressure",
+    "title": "Research",
     "section": "Effects of High and Low Temperatures on Sea Level Pressure",
     "text": "Effects of High and Low Temperatures on Sea Level Pressure"
-  },
-  {
-    "objectID": "Research.html",
-    "href": "Research.html",
-    "title": "Research",
-    "section": "",
-    "text": "##A decrease in sea level pressure can lead to several effects, including:\nWeather patterns: A decrease in sea level pressure is often associated with low pressure systems, which can bring storms, rain, and windy conditions.\nCoastal erosion: Lower sea level pressure can result in stronger onshore winds, which can increase wave heights and cause coastal erosion.\nChanges in marine life: The change in pressure can cause disruptions in ocean currents and water temperature, affecting the distribution and behavior of marine animals and plants.\nAgricultural impacts: A decrease in sea level pressure can lead to changes in temperature and precipitation patterns, which can affect crops and agricultural production.\nHuman health: The increased wind and rain associated with low sea level pressure can lead to increased respiratory problems, as well as an increased risk of flooding and landslides in some areas.\nIt’s important to note that a decrease in sea level pressure can be a result of various weather patterns, and its effects can vary depending on the specific location and conditions.\n##An increase in sea level pressure is often associated with high pressure systems and can result in several effects, including:\nBetter weather conditions: Higher sea level pressure is often accompanied by clear skies, low winds, and warmer temperatures.\nDecreased coastal erosion: Higher sea level pressure can lead to weaker onshore winds, reducing the risk of coastal erosion and wave damage.\nChanges in marine life: Increased sea level pressure can change the distribution and behavior of marine animals and plants, affecting the balance of marine ecosystems.\nAgricultural impacts: The change in pressure can alter temperature and precipitation patterns, potentially affecting crop growth and agricultural production.\nHuman health: Higher sea level pressure can lead to improved air quality, with fewer pollutants being transported from the ground to the atmosphere.\nIt’s important to note that an increase in sea level pressure can be a result of various weather patterns, and its effects can vary depending on the specific location and conditions."
   },
   {
     "objectID": "Research.html#a-decrease-in-sea-level-pressure-can-lead-to-several-effects-including",

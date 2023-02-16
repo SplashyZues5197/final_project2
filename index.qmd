@@ -1,7 +1,19 @@
 ---
-title: "How Is India Tackling Climate Change?"
+title: "How is Climate Change Affecting the World?"
 ---
-India is one of the countries that is particularly vulnerable to the impacts of climate change, as it is projected to suffer from the consequences of rising temperatures, more frequent and severe natural disasters, and decreased water availability. The data used for this project was from Kaggle and variable like temp, date , sea level pressure were pulled.It was then used to find the temperature changes by state and also you used to find the relationship between temperature and sea level pressure. The temperatures in India started going down after 2019 as India's monsoon season impacts the temperatures to a bigger extent in that year and kept decreasing after covid 19 started.
+Climate change is having a significant impact on the world, with the most notable effects being seen in rising temperatures, sea level rise, changes in precipitation patterns, and more frequent and intense weather events.  These impacts are expected to worsen in the coming years, highlighting the urgent need for action to reduce greenhouse gas emissions and mitigate the worst effects of climate change.
+
+
+```{r}
+#| echo: false
+#| message: false
+library(readr)
+library(tidyverse)
+library(ggplot2)
+library(lubridate)
+read_rds("sea_level.rds")
+```
+
 
 
 ```{r}
@@ -15,19 +27,11 @@ library(lubridate)
 ```
 
 
-```{r}
-#| echo: false
-read_rds("Delhi_1.rds")|>
-    select(City, Date, temp)|>
-  mutate(Date = year(Date))|>
-  filter(City == "New Delhi")|>
-  summarize(max_temp = mean(temp), .by = Date)|>
-  ggplot(aes(x = Date, y = max_temp))+
-  geom_line(size = 1)+
-  theme_minimal()+
-  labs(title = "New Delhi Temperature",subtitle = "New Delhi's temperatures decreased by 1 degree celsius from 2018-2020",
-       x = "Time", y = "Temperature", caption = "Source: Kaggle")
-```
+
+
+
+
+
 
 
 

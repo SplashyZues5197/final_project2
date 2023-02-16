@@ -6,3 +6,7 @@
 *Rproj
 /.quarto/
 _publish.yml
+*csv
+*cpg
+*dbf
+*shp

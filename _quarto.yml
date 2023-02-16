@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "India's Temperature Changes and Effects"
+  title: "Climate Change Effects On The World"
   navbar:
     left:
       - href: index.qmd
