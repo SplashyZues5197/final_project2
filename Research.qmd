@@ -27,16 +27,22 @@ read_rds("rds/1900.rds")
  
 ## 1960
 ```{r}
+#| echo: false
+#| message: false
 read_rds("rds/1960.rds")
 ```
 
 ## 2000
 ```{r}
+#| echo: false
+#| message: false
 read_rds("rds/2000.rds")
 ```
 
 ## 2023
 ```{r}
+#| echo: false
+#| message: false
 read_rds("rds/2023.rds")
 ```
 
