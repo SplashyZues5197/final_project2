@@ -10,7 +10,7 @@ library(tidyverse)
 library(ggplot2)
 library(lubridate)
 library(knitr)
-read_rds("ev_plot.rds")
+read_rds("rds/ev_plot.rds")
 ```
 
 
@@ -22,5 +22,5 @@ library(tidyverse)
 library(ggplot2)
 library(lubridate)
 library(knitr)
-read_rds("solar_energy.rds")
+read_rds("rds/solar_energy.rds")
 ```

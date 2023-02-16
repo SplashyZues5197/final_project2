@@ -1,7 +1,7 @@
 ---
 title: "How is Climate Change Affecting the World?"
 ---
-Climate change is having a significant impact on the world, with the most notable effects being seen in rising temperatures, sea level rise, changes in precipitation patterns, and more frequent and intense weather events. To investigate the impacts,I pulled data from big organizations like NASA, NOAA, and also kaggle like Sea Level Changes, CO2 emissions, and more useful stuff to find the trends in the data. For almost a century, the global mean sea level has been rising and showing a upward trend.
+Climate change is having a significant impact on the world, with the most notable effects being seen in rising temperatures, sea level rise, changes in precipitation patterns, and more frequent and intense weather events. To investigate the impacts,I pulled data from big organizations like NASA, NOAA, and also kaggle like Sea Level Changes, CO2 emissions, and more useful stuff to find the trends in the data. For a century, the global mean sea level has been rising and showing a upward trend.
 
 
 ```{r}

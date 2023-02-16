@@ -14,25 +14,25 @@
     "text": "Sources\nhttps://doi.org/10.5067/GMSLM-TJ151.\nhttps://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html ; https://ember-climate.org/data-catalogue/yearly-electricity-data/ ; https://ember-climate.org/insights/research/european-electricity-review-2022/"
   },
   {
-    "objectID": "closing.html#conclusion",
-    "href": "closing.html#conclusion",
+    "objectID": "closing.html",
+    "href": "closing.html",
     "title": "Conclusion",
-    "section": "Conclusion",
-    "text": "Conclusion"
+    "section": "",
+    "text": "In conclusion, this data science project has shed light on the critical issue of climate change and the impact it has on our planet. Through our analysis, we have found that there is a clear need for immediate action to reduce greenhouse gas emissions and mitigate the effects of global warming. I have also shown how data science can be used to gain insights into climate change patterns and provide meaningful solutions to the problem."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "How is Climate Change Affecting the World?",
     "section": "",
-    "text": "Climate change is having a significant impact on the world, with the most notable effects being seen in rising temperatures, sea level rise, changes in precipitation patterns, and more frequent and intense weather events. To investigate the impacts,I pulled data from big organizations like NASA, NOAA, and also kaggle like Sea Level Changes, CO2 emissions, and more useful stuff to find the trends in the data. For almost a century, the global mean sea level has been rising and showing a upward trend."
+    "text": "Climate change is having a significant impact on the world, with the most notable effects being seen in rising temperatures, sea level rise, changes in precipitation patterns, and more frequent and intense weather events. To investigate the impacts,I pulled data from big organizations like NASA, NOAA, and also kaggle like Sea Level Changes, CO2 emissions, and more useful stuff to find the trends in the data. For a century, the global mean sea level has been rising and showing a upward trend."
   },
   {
-    "objectID": "Marine.html",
-    "href": "Marine.html",
+    "objectID": "Marine.html#co2-concentration-in-ocean-bodies",
+    "href": "Marine.html#co2-concentration-in-ocean-bodies",
     "title": "Marine Life",
-    "section": "",
-    "text": "Ocean acidification: As CO2 dissolves in seawater, it reacts with water to form carbonic acid, which lowers the pH of the water. This process is known as ocean acidification. Lower pH levels can make it more difficult for marine organisms, such as corals, mollusks, and some plankton, to build and maintain their shells and skeletons, which can have cascading effects throughout the food web."
+    "section": "CO2 concentration in Ocean Bodies",
+    "text": "CO2 concentration in Ocean Bodies\n\n\n\n\n\nOcean acidification: As CO2 dissolves in seawater, it reacts with water to form carbonic acid, which lowers the pH of the water. This process is known as ocean acidification. Lower pH levels can make it more difficult for marine organisms, such as corals, mollusks, and some plankton, to build and maintain their shells and skeletons, which can have cascading effects throughout the food web."
   },
   {
     "objectID": "Research.html#us-temperature-changes-from-1900-to-present",
@@ -40,6 +40,34 @@
     "title": "Causes and Effects",
     "section": "US Temperature Changes From 1900 to Present",
     "text": "US Temperature Changes From 1900 to Present"
+  },
+  {
+    "objectID": "Research.html#section",
+    "href": "Research.html#section",
+    "title": "Causes and Effects",
+    "section": "1900",
+    "text": "1900"
+  },
+  {
+    "objectID": "Research.html#section-1",
+    "href": "Research.html#section-1",
+    "title": "Causes and Effects",
+    "section": "1960",
+    "text": "1960\n\nread_rds(\"rds/1960.rds\")"
+  },
+  {
+    "objectID": "Research.html#section-2",
+    "href": "Research.html#section-2",
+    "title": "Causes and Effects",
+    "section": "2000",
+    "text": "2000\n\nread_rds(\"rds/2000.rds\")"
+  },
+  {
+    "objectID": "Research.html#section-3",
+    "href": "Research.html#section-3",
+    "title": "Causes and Effects",
+    "section": "2023",
+    "text": "2023\n\nread_rds(\"rds/2023.rds\")"
   },
   {
     "objectID": "Research.html#temperatures-in-india",
@@ -60,13 +88,13 @@
     "href": "Research.html#a-decrease-in-sea-level-pressure-can-lead-to-several-effects-including",
     "title": "Causes and Effects",
     "section": "A decrease in sea level pressure can lead to several effects, including:",
-    "text": "A decrease in sea level pressure can lead to several effects, including:\n-Weather patterns: a decrease in sea level pressure is often associated with low pressure systems, which can bring storms, rain, and windy conditions.\n-Coastal erosion: Lower sea level pressure can result in stronger onshore winds, which can increase wave heights and cause coastal erosion.\n-Changes in marine life: The change in pressure can cause disruptions in ocean currents and water temperature, affecting the distribution and behavior of marine animals and plants.\n-Agricultural impacts: A decrease in sea level pressure can lead to changes in temperature and precipitation patterns, which can affect crops and agricultural production.\n-Human health: The increased wind and rain associated with low sea level pressure can lead to increased respiratory problems, as well as an increased risk of flooding and landslides in some areas.\n-It’s important to note that a decrease in sea level pressure can be a result of various weather patterns, and its effects can vary depending on the specific location and conditions."
+    "text": "A decrease in sea level pressure can lead to several effects, including:\n-Weather patterns: Can bring storms, rain, and windy conditions.\n-Agricultural impacts: Changes in temperature and precipitation patterns, which can affect crops and agricultural production.\n-Human health: Increased respiratory problems, as well as an increased risk of flooding and landslides in some areas."
   },
   {
     "objectID": "Research.html#an-increase-in-sea-level-pressure-is-often-associated-with-high-pressure-systems-and-can-result-in-several-effects-including",
     "href": "Research.html#an-increase-in-sea-level-pressure-is-often-associated-with-high-pressure-systems-and-can-result-in-several-effects-including",
     "title": "Causes and Effects",
     "section": "An increase in sea level pressure is often associated with high pressure systems and can result in several effects, including:",
-    "text": "An increase in sea level pressure is often associated with high pressure systems and can result in several effects, including:\n-Better weather conditions: Higher sea level pressure is often accompanied by clear skies, low winds, and warmer temperatures.\n-Decreased coastal erosion: Higher sea level pressure can lead to weaker onshore winds, reducing the risk of coastal erosion and wave damage.\n-Changes in marine life: Increased sea level pressure can change the distribution and behavior of marine animals and plants, affecting the balance of marine ecosystems.\n-Agricultural impacts: The change in pressure can alter temperature and precipitation patterns, potentially affecting crop growth and agricultural production.\n-Human health: Higher sea level pressure can lead to improved air quality, with fewer pollutants being transported from the ground to the atmosphere.\n-It’s important to note that an increase in sea level pressure can be a result of various weather patterns, and its effects can vary depending on the specific location and conditions."
+    "text": "An increase in sea level pressure is often associated with high pressure systems and can result in several effects, including:\n-Better weather conditions: Clear skies, low winds, and warmer temperatures.\n-Agricultural impacts: Temperature and precipitation patterns, potentially affecting crop growth and agricultural production.\n-Human health: Improved air quality, with fewer pollutants being transported from the ground to the atmosphere."
   }
 ]

@@ -19,21 +19,25 @@ include_graphics("coal_use.gif")
 
 
 ## US Temperature Changes From 1900 to Present
+## 1900
 ```{r}
 #| echo: false
-read_rds("1900.rds")
+read_rds("rds/1900.rds")
+```
+ 
+## 1960
+```{r}
+read_rds("rds/1960.rds")
+```
 
+## 2000
+```{r}
+read_rds("rds/2000.rds")
+```
 
-read_rds("1960.rds")
-
-
-
-read_rds("2000.rds")
-
-
-
-
-read_rds("2023.rds")
+## 2023
+```{r}
+read_rds("rds/2023.rds")
 ```
 
 ## Temperatures in India 
@@ -46,7 +50,7 @@ library(readr)
 library(tidyverse)
 library(ggplot2)
 library(lubridate)
-read_rds("Delhi.rds")|>
+read_rds("rds/Delhi.rds")|>
   select(City, Date, temp)|>
   mutate(Date = year(Date))|>
   filter(City == "New Delhi")|>
@@ -70,7 +74,7 @@ library(readr)
 library(tidyverse)
 library(ggplot2)
 library(lubridate)
-read_rds("pressure.rds")
+read_rds("rds/pressure.rds")
 
 ```
 
@@ -78,32 +82,22 @@ read_rds("pressure.rds")
 
 ## A decrease in sea level pressure can lead to several effects, including:
 
--Weather patterns: a decrease in sea level pressure is often associated with low pressure systems, which can bring storms, rain, and windy conditions.
+-Weather patterns: Can bring storms, rain, and windy conditions.
 
--Coastal erosion: Lower sea level pressure can result in stronger onshore winds, which can increase wave heights and cause coastal erosion.
+-Agricultural impacts: Changes in temperature and precipitation patterns, which can affect crops and agricultural production.
 
--Changes in marine life: The change in pressure can cause disruptions in ocean currents and water temperature, affecting the distribution and behavior of marine animals and plants.
-
--Agricultural impacts: A decrease in sea level pressure can lead to changes in temperature and precipitation patterns, which can affect crops and agricultural production.
-
--Human health: The increased wind and rain associated with low sea level pressure can lead to increased respiratory problems, as well as an increased risk of flooding and landslides in some areas.
-
--It's important to note that a decrease in sea level pressure can be a result of various weather patterns, and its effects can vary depending on the specific location and conditions.
+-Human health:  Increased respiratory problems, as well as an increased risk of flooding and landslides in some areas.
 
 
 ## An increase in sea level pressure is often associated with high pressure systems and can result in several effects, including:
 
--Better weather conditions: Higher sea level pressure is often accompanied by clear skies, low winds, and warmer temperatures.
+-Better weather conditions: Clear skies, low winds, and warmer temperatures.
 
--Decreased coastal erosion: Higher sea level pressure can lead to weaker onshore winds, reducing the risk of coastal erosion and wave damage.
+-Agricultural impacts: Temperature and precipitation patterns, potentially affecting crop growth and agricultural production.
 
--Changes in marine life: Increased sea level pressure can change the distribution and behavior of marine animals and plants, affecting the balance of marine ecosystems.
+-Human health: Improved air quality, with fewer pollutants being transported from the ground to the atmosphere.
 
--Agricultural impacts: The change in pressure can alter temperature and precipitation patterns, potentially affecting crop growth and agricultural production.
 
--Human health: Higher sea level pressure can lead to improved air quality, with fewer pollutants being transported from the ground to the atmosphere.
-
--It's important to note that an increase in sea level pressure can be a result of various weather patterns, and its effects can vary depending on the specific location and conditions.
 
 
 
