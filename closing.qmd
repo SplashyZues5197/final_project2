@@ -2,5 +2,7 @@
 title: "Conclusion"
 editor: visual
 ---
+
 ## Conclusion
+
 In conclusion, this data science project has shed light on the critical issue of climate change and the impact it has on our planet. Through our analysis, we have found that there is a clear need for immediate action to reduce greenhouse gas emissions and mitigate the effects of global warming. I have also shown how data science can be used to gain insights into climate change patterns and provide meaningful solutions to the problem.
