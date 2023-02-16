@@ -1,5 +1,5 @@
 ---
-title: "CO2 Effects on Marine Life"
+title: "Marine Life"
 ---
 ```{r}
 #| echo: false

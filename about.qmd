@@ -26,7 +26,11 @@ Ani.bellamkonda@Gmail.com
 
 
 ## Sources
-HDR GSFC. 2021. Global Mean Sea Level Trend from Integrated Multi-Mission Ocean Altimeters TOPEX/Poseidon, Jason-1, OSTM/Jason-2, and Jason-3 Version 5.1. Ver. 5.1 PO.DAAC, CA, USA. Dataset accessed [YYYY-MM-DD] at https://doi.org/10.5067/GMSLM-TJ151.
+ https://doi.org/10.5067/GMSLM-TJ151.
+
+https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html ; https://ember-climate.org/data-catalogue/yearly-electricity-data/ ; https://ember-climate.org/insights/research/european-electricity-review-2022/
+
+
 
   
 

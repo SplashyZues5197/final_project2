@@ -11,49 +11,7 @@
     "href": "about.html#sources",
     "title": "Anish Bellamkonda",
     "section": "Sources",
-    "text": "Sources\nHDR GSFC. 2021. Global Mean Sea Level Trend from Integrated Multi-Mission Ocean Altimeters TOPEX/Poseidon, Jason-1, OSTM/Jason-2, and Jason-3 Version 5.1. Ver. 5.1 PO.DAAC, CA, USA. Dataset accessed [YYYY-MM-DD] at https://doi.org/10.5067/GMSLM-TJ151."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "How is Climate Change Affecting the World?",
-    "section": "",
-    "text": "Climate change is having a significant impact on the world, with the most notable effects being seen in rising temperatures, sea level rise, changes in precipitation patterns, and more frequent and intense weather events. To investigate the impact,I pulled data from big organizations like NASA , NOAA and also kaggle like Sea Level Changes,CO2 emmisiosn, and more useful stuff. These impacts are expected to worsen in the coming years, highlighting the urgent need for action to reduce greenhouse gas emissions and mitigate the worst effects of climate change."
-  },
-  {
-    "objectID": "Research.html#us-temperature-changes-from-1900-to-present",
-    "href": "Research.html#us-temperature-changes-from-1900-to-present",
-    "title": "Causes and Effects of High Temperatures",
-    "section": "US Temperature Changes From 1900 to Present",
-    "text": "US Temperature Changes From 1900 to Present"
-  },
-  {
-    "objectID": "Research.html#effects-of-high-and-low-temperatures-on-sea-level-pressure",
-    "href": "Research.html#effects-of-high-and-low-temperatures-on-sea-level-pressure",
-    "title": "Causes and Effects of High Temperatures",
-    "section": "Effects of High and Low Temperatures on Sea Level Pressure",
-    "text": "Effects of High and Low Temperatures on Sea Level Pressure"
-  },
-  {
-    "objectID": "Research.html#a-decrease-in-sea-level-pressure-can-lead-to-several-effects-including",
-    "href": "Research.html#a-decrease-in-sea-level-pressure-can-lead-to-several-effects-including",
-    "title": "Causes and Effects of High Temperatures",
-    "section": "A decrease in sea level pressure can lead to several effects, including:",
-    "text": "A decrease in sea level pressure can lead to several effects, including:\n-Weather patterns: a decrease in sea level pressure is often associated with low pressure systems, which can bring storms, rain, and windy conditions.\n-Coastal erosion: Lower sea level pressure can result in stronger onshore winds, which can increase wave heights and cause coastal erosion.\n-Changes in marine life: The change in pressure can cause disruptions in ocean currents and water temperature, affecting the distribution and behavior of marine animals and plants.\n-Agricultural impacts: A decrease in sea level pressure can lead to changes in temperature and precipitation patterns, which can affect crops and agricultural production.\n-Human health: The increased wind and rain associated with low sea level pressure can lead to increased respiratory problems, as well as an increased risk of flooding and landslides in some areas.\n-It’s important to note that a decrease in sea level pressure can be a result of various weather patterns, and its effects can vary depending on the specific location and conditions."
-  },
-  {
-    "objectID": "Research.html#an-increase-in-sea-level-pressure-is-often-associated-with-high-pressure-systems-and-can-result-in-several-effects-including",
-    "href": "Research.html#an-increase-in-sea-level-pressure-is-often-associated-with-high-pressure-systems-and-can-result-in-several-effects-including",
-    "title": "Causes and Effects of High Temperatures",
-    "section": "An increase in sea level pressure is often associated with high pressure systems and can result in several effects, including:",
-    "text": "An increase in sea level pressure is often associated with high pressure systems and can result in several effects, including:\n-Better weather conditions: Higher sea level pressure is often accompanied by clear skies, low winds, and warmer temperatures.\n-Decreased coastal erosion: Higher sea level pressure can lead to weaker onshore winds, reducing the risk of coastal erosion and wave damage.\n-Changes in marine life: Increased sea level pressure can change the distribution and behavior of marine animals and plants, affecting the balance of marine ecosystems.\n-Agricultural impacts: The change in pressure can alter temperature and precipitation patterns, potentially affecting crop growth and agricultural production.\n-Human health: Higher sea level pressure can lead to improved air quality, with fewer pollutants being transported from the ground to the atmosphere.\n-It’s important to note that an increase in sea level pressure can be a result of various weather patterns, and its effects can vary depending on the specific location and conditions."
-  },
-  {
-    "objectID": "Marine.html",
-    "href": "Marine.html",
-    "title": "CO2 Effects on Marine Life",
-    "section": "",
-    "text": "Ocean acidification: As CO2 dissolves in seawater, it reacts with water to form carbonic acid, which lowers the pH of the water. This process is known as ocean acidification. Lower pH levels can make it more difficult for marine organisms, such as corals, mollusks, and some plankton, to build and maintain their shells and skeletons, which can have cascading effects throughout the food web."
+    "text": "Sources\nhttps://doi.org/10.5067/GMSLM-TJ151.\nhttps://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html ; https://ember-climate.org/data-catalogue/yearly-electricity-data/ ; https://ember-climate.org/insights/research/european-electricity-review-2022/"
   },
   {
     "objectID": "closing.html#conclusion",
@@ -63,10 +21,52 @@
     "text": "Conclusion"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "How is Climate Change Affecting the World?",
+    "section": "",
+    "text": "Climate change is having a significant impact on the world, with the most notable effects being seen in rising temperatures, sea level rise, changes in precipitation patterns, and more frequent and intense weather events. To investigate the impacts,I pulled data from big organizations like NASA, NOAA, and also kaggle like Sea Level Changes, CO2 emissions, and more useful stuff to find the trends in the data. For almost a century, the global mean sea level has been rising and showing a upward trend."
+  },
+  {
+    "objectID": "Marine.html",
+    "href": "Marine.html",
+    "title": "Marine Life",
+    "section": "",
+    "text": "Ocean acidification: As CO2 dissolves in seawater, it reacts with water to form carbonic acid, which lowers the pH of the water. This process is known as ocean acidification. Lower pH levels can make it more difficult for marine organisms, such as corals, mollusks, and some plankton, to build and maintain their shells and skeletons, which can have cascading effects throughout the food web."
+  },
+  {
+    "objectID": "Research.html#us-temperature-changes-from-1900-to-present",
+    "href": "Research.html#us-temperature-changes-from-1900-to-present",
+    "title": "Causes and Effects",
+    "section": "US Temperature Changes From 1900 to Present",
+    "text": "US Temperature Changes From 1900 to Present"
+  },
+  {
     "objectID": "Research.html#temperatures-in-india",
     "href": "Research.html#temperatures-in-india",
-    "title": "Causes and Effects of High Temperatures",
+    "title": "Causes and Effects",
     "section": "Temperatures in India",
     "text": "Temperatures in India"
+  },
+  {
+    "objectID": "Research.html#effects-of-high-and-low-temperatures-on-sea-level-pressure",
+    "href": "Research.html#effects-of-high-and-low-temperatures-on-sea-level-pressure",
+    "title": "Causes and Effects",
+    "section": "Effects of High and Low Temperatures on Sea Level Pressure",
+    "text": "Effects of High and Low Temperatures on Sea Level Pressure"
+  },
+  {
+    "objectID": "Research.html#a-decrease-in-sea-level-pressure-can-lead-to-several-effects-including",
+    "href": "Research.html#a-decrease-in-sea-level-pressure-can-lead-to-several-effects-including",
+    "title": "Causes and Effects",
+    "section": "A decrease in sea level pressure can lead to several effects, including:",
+    "text": "A decrease in sea level pressure can lead to several effects, including:\n-Weather patterns: a decrease in sea level pressure is often associated with low pressure systems, which can bring storms, rain, and windy conditions.\n-Coastal erosion: Lower sea level pressure can result in stronger onshore winds, which can increase wave heights and cause coastal erosion.\n-Changes in marine life: The change in pressure can cause disruptions in ocean currents and water temperature, affecting the distribution and behavior of marine animals and plants.\n-Agricultural impacts: A decrease in sea level pressure can lead to changes in temperature and precipitation patterns, which can affect crops and agricultural production.\n-Human health: The increased wind and rain associated with low sea level pressure can lead to increased respiratory problems, as well as an increased risk of flooding and landslides in some areas.\n-It’s important to note that a decrease in sea level pressure can be a result of various weather patterns, and its effects can vary depending on the specific location and conditions."
+  },
+  {
+    "objectID": "Research.html#an-increase-in-sea-level-pressure-is-often-associated-with-high-pressure-systems-and-can-result-in-several-effects-including",
+    "href": "Research.html#an-increase-in-sea-level-pressure-is-often-associated-with-high-pressure-systems-and-can-result-in-several-effects-including",
+    "title": "Causes and Effects",
+    "section": "An increase in sea level pressure is often associated with high pressure systems and can result in several effects, including:",
+    "text": "An increase in sea level pressure is often associated with high pressure systems and can result in several effects, including:\n-Better weather conditions: Higher sea level pressure is often accompanied by clear skies, low winds, and warmer temperatures.\n-Decreased coastal erosion: Higher sea level pressure can lead to weaker onshore winds, reducing the risk of coastal erosion and wave damage.\n-Changes in marine life: Increased sea level pressure can change the distribution and behavior of marine animals and plants, affecting the balance of marine ecosystems.\n-Agricultural impacts: The change in pressure can alter temperature and precipitation patterns, potentially affecting crop growth and agricultural production.\n-Human health: Higher sea level pressure can lead to improved air quality, with fewer pollutants being transported from the ground to the atmosphere.\n-It’s important to note that an increase in sea level pressure can be a result of various weather patterns, and its effects can vary depending on the specific location and conditions."
   }
 ]

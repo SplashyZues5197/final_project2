@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Climate Change Effects On The World"
+  title: "Impact of Climate Change on the World"
   navbar:
     left:
       - href: index.qmd
