@@ -7,7 +7,7 @@ library(ggplot2)
 library(tidyr)
 library(gganimate)
 library(transformr)
-coal_energy <- read_csv(file = "coal-energy-share.csv", show_col_types = FALSE)
+coal_energy <- read_csv(file = "data/coal-energy-share.csv", show_col_types = FALSE)
   
 
 coal_energy1 <- filter(coal_energy, Entity == c("India", "United States", "United Kingdom"))
@@ -29,10 +29,11 @@ coal_energy_plot<-ggplot()+
        x = "Year", y = "Percentage", fill = "Country")+
   scale_color_manual(name = "Group", values = c("red", "orange", "green"), 
                      labels = c("United States", "United Kingdom", "India"))+
-  theme_classic()
-#animate(coal_energy_plot, duration = 10, fps = 20, width = 800, height = 600)
+  theme_classic()+
+  transition_reveal(Year)
+animate(coal_energy_plot, nframes = 144, fps = 20)
 
 #Writing RDS
 write_rds(coal_energy_plot, "coal_energy.rds")
   
-
+anim_save("coal_use.gif", coal_energy_plot)

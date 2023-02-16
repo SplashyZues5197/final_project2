@@ -1,0 +1,14 @@
+---
+title: "CO2 Effects on Marine Life"
+---
+```{r}
+#| echo: false
+#| message: false
+library(readr)
+library(tidyverse)
+library(ggplot2)
+library(lubridate)
+library(knitr)
+read_rds("marine_inc.rds")
+```
+Ocean acidification: As CO2 dissolves in seawater, it reacts with water to form carbonic acid, which lowers the pH of the water. This process is known as ocean acidification. Lower pH levels can make it more difficult for marine organisms, such as corals, mollusks, and some plankton, to build and maintain their shells and skeletons, which can have cascading effects throughout the food web.

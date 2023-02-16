@@ -7,8 +7,10 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - Marine.qmd
       - Research.qmd
-        
+      - solution.qmd
+      - closing.qmd
       - about.qmd
 
 format:

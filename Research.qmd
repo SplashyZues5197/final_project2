@@ -1,20 +1,17 @@
 ---
-title: "Research"
+title: "Causes and Effects of High Temperatures"
 ---
-## India's use of its resources
+## Percentage of Energy produced solely from Coal
 
 ```{r}
 #| echo: false
 #| message: false
-
 library(readr)
 library(tidyverse)
 library(ggplot2)
 library(lubridate)
-library(gganimate)
-library(plotly)
-p <-read_rds("coal_energy.rds")
-p
+library(knitr)
+include_graphics("coal_use.gif")
 ```
 
 
@@ -39,9 +36,27 @@ read_rds("2000.rds")
 read_rds("2023.rds")
 ```
 
+## Temperatures in India 
 
+```{r}
+#| echo: false
+#| message: false
 
-
+library(readr)
+library(tidyverse)
+library(ggplot2)
+library(lubridate)
+read_rds("Delhi.rds")|>
+  select(City, Date, temp)|>
+  mutate(Date = year(Date))|>
+  filter(City == "New Delhi")|>
+  summarize(max_temp = mean(temp), .by = Date)|>
+  ggplot(aes(x = Date, y = max_temp))+
+  geom_line(color = "blue")+
+  theme_classic()+
+  labs(title = "New Delhi Temperature",subtitle = "New Delhi's temperatures decreased by 1 degree celsius from 2018-2020",
+       x = "Time", y = "Temperature")
+```
 
 
 
@@ -89,4 +104,6 @@ read_rds("pressure.rds")
 -Human health: Higher sea level pressure can lead to improved air quality, with fewer pollutants being transported from the ground to the atmosphere.
 
 -It's important to note that an increase in sea level pressure can be a result of various weather patterns, and its effects can vary depending on the specific location and conditions.
+
+
 

@@ -9,7 +9,7 @@ library(gganimate)
 library(transformr)
 library(lubridate)
 
-marine_co2 <- read_csv(file = "co2_gr_gl.csv", show_col_types = FALSE)
+marine_co2 <- read_csv(file = "data/co2_gr_gl.csv", show_col_types = FALSE)
 
 colnames(marine_co2)<- c("year","ann_inc","unc")
 

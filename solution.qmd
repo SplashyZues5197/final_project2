@@ -1,0 +1,15 @@
+---
+title: "Solutions"
+
+---
+```{r}
+#| echo: false
+#| message: false
+library(readr)
+library(tidyverse)
+library(ggplot2)
+library(lubridate)
+library(knitr)
+read_rds("ev_plot.rds")
+```
+

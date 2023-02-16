@@ -1,0 +1,14 @@
+---
+title: "CO2 Effects on Marine Life"
+---
+```{r}
+#| echo: false
+#| message: false
+library(readr)
+library(tidyverse)
+library(ggplot2)
+library(lubridate)
+library(knitr)
+read_rds("marine_inc.rds")
+```
+
