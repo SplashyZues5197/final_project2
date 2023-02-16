@@ -2,16 +2,23 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Climate Change Effects On The World",
+    "title": "Anish Bellamkonda",
     "section": "",
-    "text": "Hi i am Anish Bellamkonda. Currently a junior at Metea Valley High School and am very passionate about data science\nMy email: Ani.bellamkonda@gmail.com\nGitHub Link\nKane’s Free Data Science Bootcamp"
+    "text": "Hi I am Anish Bellamkonda. Currently a junior at Metea Valley High School and am very passionate about data science and Machine Learning as my future career will focus more on those topics\nIf you have any questions about the project, please mail me\nAni.bellamkonda@Gmail.com"
+  },
+  {
+    "objectID": "about.html#sources",
+    "href": "about.html#sources",
+    "title": "Anish Bellamkonda",
+    "section": "Sources",
+    "text": "Sources"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "How is Climate Change Affecting the World?",
     "section": "",
-    "text": "Climate change is having a significant impact on the world, with the most notable effects being seen in rising temperatures, sea level rise, changes in precipitation patterns, and more frequent and intense weather events. These impacts are expected to worsen in the coming years, highlighting the urgent need for action to reduce greenhouse gas emissions and mitigate the worst effects of climate change."
+    "text": "Climate change is having a significant impact on the world, with the most notable effects being seen in rising temperatures, sea level rise, changes in precipitation patterns, and more frequent and intense weather events. To investigate the impact,I pulled data from big organizations like NASA , NOAA and also kaggle like Sea Level Changes,CO2 emmisiosn, and more useful stuff. These impacts are expected to worsen in the coming years, highlighting the urgent need for action to reduce greenhouse gas emissions and mitigate the worst effects of climate change."
   },
   {
     "objectID": "Research.html#us-temperature-changes-from-1900-to-present",

@@ -1,18 +1,33 @@
+---
+title: "Anish Bellamkonda"
+image: 94764290.png
+about:
+  template: jolla
+  image-shape: round
+  image-width: 15em
+  links: 
+    - text: Github
+      icon: github
+      href: https://github.com/SplashyZues5197
+    - text: Bootcamp
+      icon: envelope
+      href: https://bootcamp.davidkane.info/
 
+---
 
 ## About Me
 
-Hi i am Anish Bellamkonda.
-Currently a junior at Metea Valley High School and am very passionate about data science
+Hi I am Anish Bellamkonda.
+Currently a junior at Metea Valley High School and am very passionate about data science and Machine Learning as my future career will focus more on those topics
+
+If you have any questions about the project, please mail me
+
+Ani.bellamkonda@Gmail.com
 
 
-My email: Ani.bellamkonda@gmail.com
+## Sources
+HDR GSFC. 2021. Global Mean Sea Level Trend from Integrated Multi-Mission Ocean Altimeters TOPEX/Poseidon, Jason-1, OSTM/Jason-2, and Jason-3 Version 5.1. Ver. 5.1 PO.DAAC, CA, USA. Dataset accessed [YYYY-MM-DD] at https://doi.org/10.5067/GMSLM-TJ151.
 
-[GitHub Link](https://github.com/SplashyZues5197/final_project2/tree/master)
-
-
-[Kane's Free Data Science Bootcamp](https://bootcamp.davidkane.info/)
-
-
+  
 
 

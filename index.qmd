@@ -1,7 +1,7 @@
 ---
 title: "How is Climate Change Affecting the World?"
 ---
-Climate change is having a significant impact on the world, with the most notable effects being seen in rising temperatures, sea level rise, changes in precipitation patterns, and more frequent and intense weather events.  These impacts are expected to worsen in the coming years, highlighting the urgent need for action to reduce greenhouse gas emissions and mitigate the worst effects of climate change.
+Climate change is having a significant impact on the world, with the most notable effects being seen in rising temperatures, sea level rise, changes in precipitation patterns, and more frequent and intense weather events. To investigate the impact,I pulled data from big organizations like NASA , NOAA and also kaggle like Sea Level Changes,CO2 emmisiosn, and more useful stuff. These impacts are expected to worsen in the coming years, highlighting the urgent need for action to reduce greenhouse gas emissions and mitigate the worst effects of climate change.
 
 
 ```{r}
@@ -11,7 +11,9 @@ library(readr)
 library(tidyverse)
 library(ggplot2)
 library(lubridate)
-read_rds("sea_level.rds")
+library(knitr)
+include_graphics("sea_level.gif")
+
 ```
 
 
